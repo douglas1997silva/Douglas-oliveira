@@ -1,0 +1,29 @@
+
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+<nav class="nav-bar">
+  <ul class="logo_imag">
+    <li class="lista-logo">
+      <a href="#"><i class="fi fi-rs-rocket-lunch"></i></a>
+    </li>
+  </ul>
+
+    <div class="menu-toggle" (click)="toggleMenu()">
+      <div class="nav-close" *ngIf="isMenuOpen">
+         <i class="fi fi-br-apps-delete"></i>
+      </div>
+      <div class="nav-open" *ngIf="!isMenuOpen">
+          <i class="fi fi-br-bars-staggered"></i>
+      </div>
+
+    </div>
+
+
+    <ul class="menu " [class.is-open]="isMenuOpen">
+      <li><a class="menu_itens" href="">Inicio</a></li>
+      <li><a class="menu_itens" href="">Projetos</a></li>
+      <li><a class="menu_itens" href="">Skills</a></li>
+      <li><a class="menu_itens" href="">Contato</a></li>
+
+    </ul>
+
+</nav>
