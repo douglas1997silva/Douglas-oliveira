@@ -1,8 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&display=swap');
+:root{
+  --fonte-de-texto: #808080;
+  --fundo: #0055A4 ;
+  --buttton: #FF6B00 ;
+  --paragrafo: #00A887 ;
+  --verde: #008000;
+  --azul-pro: #101728;
+  --cinza-pro: #cebcbc;
+  --preto: #000000 ;
+  --branco: #FFFFFF;
+   --span: #51319b;
+}
+body{
+   background-color: var(--azul-pro);
+   color: var(--preto);
+}
+:root .dark-theme {
+  --fonte-de-texto: #555843;
+  --fundo: #0055A4 ;
+  --buttton: #FF6B00 ;
+  --paragrafo: #1f00a8 ;
+  --verde: #008000;
+  --azul-pro: #687EFF;
+  --cinza-pro: #80B3FF;
+  --preto: #e9e9e9 ;
+  --branco: #000000;
+   --span: #B6FFFA;
+}
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
 }

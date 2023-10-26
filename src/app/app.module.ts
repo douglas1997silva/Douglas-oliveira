@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home/home.component';
 import { BannerComponent } from './components/banner/banner.component';
+import {SobreMimComponent} from './components/sobre-mim/sobre-mim.component';
+import { SobreComponent } from './page/sobre/sobre.component';
+import { SobreMimAbaComponent } from './page/sobre-mim-aba/sobre-mim-aba.component'
 
 
 
@@ -14,7 +17,10 @@ import { BannerComponent } from './components/banner/banner.component';
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    BannerComponent
+    BannerComponent,
+    SobreMimComponent,
+    SobreComponent,
+    SobreMimAbaComponent
   ],
   imports: [
     BrowserModule,

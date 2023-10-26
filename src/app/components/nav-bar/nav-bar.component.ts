@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
    isMenuOpen = false ;
+   navbardark = false;
 
 
   constructor() { }
@@ -15,7 +16,14 @@ export class NavBarComponent implements OnInit {
    this.isMenuOpen = !this.isMenuOpen;
 
   }
-  ngOnInit(): void {
+
+
+  changeThemeColor(){
+    document.body.classList.toggle('dark-theme');
+    this.navbardark = ! this.navbardark;
   }
 
+  ngOnInit(): void {
+  }
 }
+
