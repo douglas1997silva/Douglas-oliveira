@@ -89,6 +89,8 @@ p{
     margin-bottom: 2rem;
   }
   .container-titles{
+    width: 100%;
+
     order: 2;
   }
   .imga-douglas{
@@ -101,6 +103,6 @@ p{
 
   }
    h1{
-    font-size: 20px;
+    font-size: 17px;
    }
 }

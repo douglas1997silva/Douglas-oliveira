@@ -191,7 +191,7 @@ li > .btn-hab{
   }
 
 
-  @media screen and (min-width: 250px){
+  @media (min-width: 250px) and (max-width: 750px){
     .container{
 
       display: flex;
