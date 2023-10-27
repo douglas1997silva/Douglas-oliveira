@@ -43,6 +43,8 @@
 
 
 }
+/*dark mode */
+
 .gif-dark-sol {
   width: 25px;
   z-index: 999;
@@ -55,22 +57,26 @@
   width: 25px;
   z-index: 999;
   cursor: pointer;
-  filter: drop-shadow(white);
+
 }
 #d {
+
   width: 50px;
   cursor: pointer;
 
 }
-input{
-  position: absolute;
-  top: 22px;
-  right:469px;
-  z-index: -1;
+.nav-bar >.button-nigth{
+   border-radius: 30px;
+   width: 70px;
+   padding: 1px;
+   background-color: var(--azul-pro);
+   border: var(--paragrafo) solid 1px;
+}
+.button-nigth:hover{
 
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:700px) {
   .nav-open {
     display: none;
   }
@@ -78,7 +84,7 @@ input{
 
 
 
-@media screen and (max-width:450px){
+@media (min-width:250px) and (max-width:750px){
 
 
 /* Estilos para o menu de navegação */
@@ -141,43 +147,5 @@ input{
 
 
 
-@-webkit-keyframes flip-scale-2-ver-right {
-  0% {
-    -webkit-transform: translateX(0) rotateY(0) scale(1);
-            transform: translateX(0) rotateY(0) scale(1);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-  }
-  50% {
-    -webkit-transform: translateX(50%) rotateY(-90deg) scale(2);
-            transform: translateX(50%) rotateY(-90deg) scale(2);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-  }
-  100% {
-    -webkit-transform: translateX(100%) rotateY(-180deg) scale(1);
-            transform: translateX(100%) rotateY(-180deg) scale(1);
-    -webkit-transform-origin: 0% 50%;
-            transform-origin: 0% 50%;
-  }
-}
-@keyframes flip-scale-2-ver-right {
-  0% {
-    -webkit-transform: translateX(0) rotateY(0) scale(1);
-            transform: translateX(0) rotateY(0) scale(1);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-  }
-  50% {
-    -webkit-transform: translateX(50%) rotateY(-90deg) scale(2);
-            transform: translateX(50%) rotateY(-90deg) scale(2);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-  }
-  100% {
-    -webkit-transform: translateX(100%) rotateY(-180deg) scale(1);
-            transform: translateX(100%) rotateY(-180deg) scale(1);
-    -webkit-transform-origin: 0% 50%;
-            transform-origin: 0% 50%;
-  }
-}
+
+

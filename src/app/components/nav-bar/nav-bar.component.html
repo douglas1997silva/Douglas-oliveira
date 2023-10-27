@@ -1,4 +1,3 @@
-
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
 <nav class="nav-bar">
   <ul class="logo_imag">
@@ -6,30 +5,31 @@
       <a href="#" aria-label="rocket-lunch"><i class="fi fi-rs-rocket-lunch"></i></a>
     </li>
   </ul>
-     <label for="d">
-      <img src="../../../assets/estrelas-da-lua.png" alt="sol" style="color: azure;" *ngIf="navbardark" class="gif-dark-sol ">
-      <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">
 
-    <input id="d" class="button-nigth" type="checkbox" (change)="changeThemeColor()">
-  </label>
-    <div class="menu-toggle" (click)="toggleMenu()">
-      <div class="nav-close" *ngIf="isMenuOpen">
-         <i class="fi fi-br-apps-delete"></i>
-      </div>
-      <div class="nav-open" *ngIf="!isMenuOpen">
-          <i class="fi fi-br-bars-staggered"></i>
-      </div>
+  <button id="d" class="button-nigth" type="button" (click)="changeThemeColor()">
+    <img src="../../../assets/estrelas-da-lua.png" alt="sol" *ngIf="navbardark" class="gif-dark-sol ">
+    <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">
 
+  </button>
+
+  <div class="menu-toggle" (click)="toggleMenu()">
+    <div class="nav-close" *ngIf="isMenuOpen">
+      <i class="fi fi-br-apps-delete"></i>
+    </div>
+    <div class="nav-open" *ngIf="!isMenuOpen">
+      <i class="fi fi-br-bars-staggered"></i>
     </div>
 
+  </div>
 
-    <ul class="menu " [class.is-open]="isMenuOpen">
-      <li><a class="menu_itens" [routerLink]="['']">Inicio</a></li>
-      <li><a class="menu_itens" [routerLink]="['/sobre-mim-aba']">Sobre Mim</a></li>
-      <li><a class="menu_itens" href="">Projetos</a></li>
-      <li><a class="menu_itens" href="">Contato</a></li>
 
-    </ul>
+  <ul class="menu " [class.is-open]="isMenuOpen">
+    <li><a class="menu_itens" [routerLink]="['']" >Inicio</a></li>
+    <li><a class="menu_itens" [routerLink]="['/sobre-mim-aba']" >Sobre Mim</a></li>
+    <li><a class="menu_itens" href="">Projetos</a></li>
+    <li><a class="menu_itens" href="">Contato</a></li>
+
+  </ul>
 
 
 </nav>

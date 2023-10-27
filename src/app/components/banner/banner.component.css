@@ -72,6 +72,9 @@ p{
     .container-titles{
       order: 2;
     }
+    .imga-douglas{
+      width: 250px;
+    }
 }
 @media (min-width:280px) and (max-width:500px){
 
