@@ -1,0 +1,60 @@
+.card-group{
+  max-width: 1260px;
+  display: flex;
+  column-gap: 16px;
+  padding: 50px;
+  overflow-x: scroll;
+  border: 1px solid white;
+
+}
+.card > h3{
+  margin-bottom: 1rem;
+  color: var(--paragrafo);
+}
+
+.card{
+  flex: 0 0 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  background-image: linear-gradient( 85deg, var(--azul-pro), var(--fundo));
+  padding: 32px;
+  box-shadow: -16px 0 32 px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  transition: transform 250ms;
+
+
+}
+.card-imgem{
+  border-radius: 8px;
+}
+.card:not(:first-child){
+ margin-left: -130px;
+}
+.card:hover{
+  transform: translate(-8px, -16px)
+  rotate(3deg);
+}
+.card:hover ~.card {
+  transform: translateX(130px);
+}
+.lista-card > li >a{
+  color: var(--branco);
+}
+.habilidade-projetos > p {
+  font-size:  12px;
+  text-align: justify;
+}
+.lista-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lista-card > li {
+  margin-right: 15px;
+}
