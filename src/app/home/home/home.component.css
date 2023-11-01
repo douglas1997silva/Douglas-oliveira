@@ -1,7 +1,12 @@
-
-.container-projetos{
+.container-hab{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.container-projetos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 }

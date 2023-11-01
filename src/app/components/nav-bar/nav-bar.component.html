@@ -6,11 +6,7 @@
     </li>
   </ul>
 
-  <button id="d" class="button-nigth" type="button" (click)="changeThemeColor()">
-    <img src="../../../assets/estrelas-da-lua.png" alt="sol" *ngIf="navbardark" class="gif-dark-sol ">
-    <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">
 
-  </button>
 
   <div class="menu-toggle" (click)="toggleMenu()">
     <div class="nav-close" *ngIf="isMenuOpen">
@@ -26,8 +22,14 @@
   <ul class="menu " [class.is-open]="isMenuOpen">
     <li><a class="menu_itens" [routerLink]="['']" >Inicio</a></li>
     <li><a class="menu_itens" [routerLink]="['/sobre-mim-aba']" >Sobre Mim</a></li>
-    <li><a class="menu_itens" href="">Projetos</a></li>
+    <li><a class="menu_itens" [routerLink]="['/projetos']">Projetos</a></li>
     <li><a class="menu_itens" href="">Contato</a></li>
+    <li>
+       <button id="d" class="button-nigth" type="button" (click)="changeThemeColor()">
+      <img src="../../../assets/estrelas-da-lua.png" alt="sol" *ngIf="navbardark" class="gif-dark-sol ">
+      <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">
+
+    </button></li>
 
   </ul>
 

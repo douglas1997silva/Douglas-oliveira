@@ -25,15 +25,22 @@
 .menu-container > li >a {
   margin-right: 15px;
   color: var(--branco) ;
+
+}
+.menu > li>.menu_itens:hover {
+  border-bottom: solid white 2px;
 }
 .menu{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
 }
 .menu > li > a {
   margin-right: 15px;
   color: var(--cinza-pro);
 }
+
 
 .menu-itens :hover{
   color: var(--paragrafo)
@@ -59,23 +66,22 @@
   cursor: pointer;
 
 }
-#d {
 
-  width: 50px;
-  cursor: pointer;
-
-}
-.nav-bar >.button-nigth{
+.menu > li >.button-nigth{
    border-radius: 30px;
-   width: 70px;
    padding: 1px;
-   background-color: var(--azul-pro);
-   border: var(--paragrafo) solid 1px;
+   background-color: #687EFF;
+   border: #1f00a8  solid 1px;
+
+   width: 78px;
+   cursor: pointer;
+   margin-right: 12px;
 }
-.button-nigth:hover{
+.menu > li >.button-nigth:hover{
+  background-color: var(--azul-pro);
+  border: var(--paragrafo) solid 1px;
 
 }
-
 @media screen and (min-width:700px) {
   .nav-open {
     display: none;

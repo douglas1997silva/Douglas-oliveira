@@ -19,13 +19,15 @@
   justify-content: space-around;
 }
 .container-titles{
-
+  text-align: center;
   width: 450px;
   margin-left: 10px;
 }
 .container-titles >h1{
   color: var(--branco);
+
 }
+
 span{
   color: var(--span);
 }
