@@ -1,33 +1,31 @@
 
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-  <div class="card-group" >
-    <article class="card">
-      <h3>ProgBooks</h3>
-      <img src="../../../assets/progBOOKS.png" alt="progBOOKS"  class="card-imgem">
-
-        <div class="habilidade-projetos">
-          <ul class="lista-card">
-            <li>
-              <i class="fi fi-brands-github"></i>
-              <a href="https://prog-book.vercel.app/#"target="_blank"> Deploy</a></li>
-            <li><i class="fi fi-rs-table-tree"></i><a href="https://github.com/douglas1997silva/ProgBook" target="_blank"> Repositorio</a></li>
-          </ul>
-          <ul class="lista-hab">
-            <li>
-              <a class="btn-hab bounceIn  ">
-                <img class="hab" src="{{html}}" alt="html5"></a>
-            </li>
-            <li>
-              <a class="btn-hab bounceIn  ">
-                <img class="hab" src="{{css}}" alt="css"></a>
-            </li>
-          </ul>
-          <p>Criei um site com HTML e  CSS  para uma Biblioteca de Livros Dev. Apresenta um menu "hamburguer" e um slide para exibir informações sobre os livros em destaque. Não utiliza banco de dados. Destaca minhas habilidades em front-end web development..</p>
-        </div>
-
-    </article>
-  </div>
 
 
 
-
+<div class="card-group">
+  <article class="card" *ngFor="let projeto of projetos">
+    <h3>{{ projeto.titles }}</h3>
+    <img [src]="projeto.img" [alt]="projeto.titles" class="card-imgem">
+    <div class="habilidade-projetos">
+      <ul class="lista-card">
+        <li>
+          <i class="fi fi-rs-table-tree"></i>
+          <a [href]="projeto.linkDeploy" target="_blank">Deploy</a>
+        </li>
+        <li>
+          <i class="fi fi-brands-github"></i>
+          <a [href]="projeto.linkGithub" target="_blank">Repositorio</a>
+        </li>
+      </ul>
+      <ul class="lista-hab">
+        <li *ngFor="let tecnologia of projeto.tecnologias">
+          <a class="btn-hab bounceIn">
+            <img class="hab" [src]="tecnologia.imagem" [alt]="tecnologia.nome">
+          </a>
+        </li>
+      </ul>
+      <p>{{ projeto.textprojetos }}</p>
+    </div>
+  </article>
+</div>
