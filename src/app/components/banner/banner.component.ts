@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 
 })
 export class BannerComponent implements OnInit {
- imagem:string = "../../../assets/Douglas sorrindo 2 menor.jpg"
+ imagem:string = "../../../assets/DouglasOLiveira.png"
   constructor() { }
 
   ngOnInit(): void {
