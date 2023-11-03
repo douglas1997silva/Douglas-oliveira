@@ -15,6 +15,7 @@
 body{
    background-color: var(--azul-pro);
    color: var(--preto);
+   width: 100%;
 
 }
 
