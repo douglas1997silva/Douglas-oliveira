@@ -15,7 +15,9 @@
 body{
    background-color: var(--azul-pro);
    color: var(--preto);
+
 }
+
 :root .dark-theme {
   --fonte-de-texto: #555843;
   --fundo: #0055A4 ;
@@ -36,4 +38,5 @@ body{
   list-style-type: none;
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
+
 }

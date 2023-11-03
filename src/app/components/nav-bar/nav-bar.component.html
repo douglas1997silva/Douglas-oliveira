@@ -19,12 +19,13 @@
   </div>
 
 
-  <ul class="menu " [class.is-open]="isMenuOpen">
-    <li><a class="menu_itens" [routerLink]="['']" >Inicio</a></li>
-    <li><a class="menu_itens" [routerLink]="['/sobre-mim-aba']" >Sobre Mim</a></li>
-    <li><a class="menu_itens" [routerLink]="['/projetos']">Projetos</a></li>
-    <li><a class="menu_itens" href="">Contato</a></li>
+  <ul class="menu " [class.is-open]="isMenuOpen"  [ngStyle]="{'display': isMenuOpen? 'block' : 'none'}" >
+    <li><a class="menu_itens" href=""[routerLink]="['']" (click)="toggleMenu()" >Inicio </a></li>
+    <li><a class="menu_itens" href=""[routerLink]="['/sobre-mim-aba']"  (click)="toggleMenu()">Sobre Mim</a></li>
+    <li><a class="menu_itens" href=""[routerLink]="['/projetos']"(click)="toggleMenu()" >Projetos</a></li>
+    <li><a class="menu_itens" href=""href="" (click)="toggleMenu()">Contato</a></li>
     <li>
+
        <button id="d" class="button-nigth" type="button" (click)="changeThemeColor()">
       <img src="../../../assets/estrelas-da-lua.png" alt="sol" *ngIf="navbardark" class="gif-dark-sol ">
       <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">

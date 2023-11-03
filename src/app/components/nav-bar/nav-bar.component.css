@@ -101,10 +101,13 @@
   display: none;
   transition: transform 0.3s ease;
 }
-
+.menu > li {
+  margin-bottom: 1rem;
+}
 .menu_itens {
   text-decoration: none;
   color: var(--azul-pro);
+
 }
 
 .menu.is-open {

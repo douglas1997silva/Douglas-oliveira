@@ -58,8 +58,9 @@ span:hover{
 
 .imga-douglas{
   max-width: 300px;
+  margin-left: 30px;
 
-  margin-left: 47px;
+
 
 
 }
@@ -84,7 +85,7 @@ p{
 @media (min-width:500px) and (max-width:800px){
     .container{
       width: 100%;
-    height: auto;
+      height: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -113,18 +114,24 @@ p{
     text-align: center;
   }
   .container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     order: 1;
+    text-align: center;
     margin-top: 2rem;
-    width: 270px;
+    width: 260px;
     height: 250px;
   }
   .container-titles{
-    width: 355px;
+    width: 325px;
+
 
     order: 2;
   }
   .imga-douglas{
     max-width: 250px;
+
   }
 
   .fi{
