@@ -3,7 +3,7 @@
 
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--paragrafo);
+  color: var(--span);
   font-size: 30px;
 }
 
@@ -40,9 +40,9 @@ li:hover ~li {
 }
 
 li > .btn-hab{
-  box-shadow: 0px 10px 14px -7px var(--cinza-pro);
-	background:linear-gradient(to bottom, var(--cinza-pro) 5%, var(--cinza-pro)100%);
-	background-color:var(--cinza-pro);
+  box-shadow: 0px 10px 14px -7px var(--span);
+	background:linear-gradient(to bottom, var(--modulo) 5%, var(--modulo)100%);
+	background-color:var(--span);
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;

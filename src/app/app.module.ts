@@ -11,7 +11,8 @@ import {SobreMimComponent} from './components/sobre-mim/sobre-mim.component';
 import { SobreComponent } from './page/sobre/sobre.component';
 import { SobreMimAbaComponent } from './page/sobre-mim-aba/sobre-mim-aba.component';
 import { ResumoSobreComponent } from './components/resumo-sobre/resumo-sobre.component';
-import { ProjetosComponent } from './components/projetos/projetos.component'
+import { ProjetosComponent } from './components/projetos/projetos.component';
+import { RodapeComponent } from './components/rodape/rodape.component'
 
 
 
@@ -25,7 +26,8 @@ import { ProjetosComponent } from './components/projetos/projetos.component'
     SobreComponent,
     SobreMimAbaComponent,
     ResumoSobreComponent,
-    ProjetosComponent
+    ProjetosComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,

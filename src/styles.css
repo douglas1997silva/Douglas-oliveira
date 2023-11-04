@@ -3,14 +3,15 @@
 :root{
   --fonte-de-texto: #808080;
   --fundo: #0055A4 ;
-  --buttton: #FF6B00 ;
+  --card1: #101728 ;
   --paragrafo: #00A887 ;
-  --verde: #008000;
+  --card2: #0055A4;
   --azul-pro: #101728;
   --cinza-pro: #cebcbc;
   --preto: #000000 ;
   --branco: #FFFFFF;
    --span: #51319b;
+   --modulo:#cebcbc;
 }
 body{
    background-color: var(--azul-pro);
@@ -22,14 +23,15 @@ body{
 :root .dark-theme {
   --fonte-de-texto: #555843;
   --fundo: #0055A4 ;
-  --buttton: #FF6B00 ;
+  --card1: #86A789 ;
   --paragrafo: #1f00a8 ;
-  --verde: #008000;
-  --azul-pro: #687EFF;
+  --card2: #164863;
+  --azul-pro: #FFFFFF;
   --cinza-pro: #80B3FF;
   --preto: #e9e9e9 ;
   --branco: #000000;
-   --span: #B6FFFA;
+   --span: #164863;
+   --modulo:#86A789;
 
 }
 *{

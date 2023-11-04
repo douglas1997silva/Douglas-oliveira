@@ -25,6 +25,7 @@
 
 }
 p{
+  color: var(--branco);
   text-align: justify;
 }
 .container-titles >h1:hover {
@@ -52,7 +53,7 @@ span:hover{
   color: var(--paragrafo)
    ;
 }
-.a{
+.link{
   border-radius: 100%;
 }
 
@@ -70,13 +71,13 @@ align-items: center;
 justify-content: center;
   width: 300px;
   height: 300px;
-  background-image: linear-gradient( 85deg, var(--azul-pro), var(--fundo));
+  background-image: linear-gradient( 85deg, var(--card1), var(--card2));
   border-radius: 15px ;
   margin-bottom: 4rem;
   margin-left: 2rem;
 }
 .container-img:hover{
-  background-image: linear-gradient( 03deg, var(--fundo), var(--azul-pro));
+  background-image: linear-gradient( 03deg, var(--card2), var(--card1));
 }
 p{
   color: var(--branco);
