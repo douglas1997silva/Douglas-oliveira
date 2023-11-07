@@ -62,6 +62,42 @@ li > .btn-hab{
   position:relative;
 	top:1px;
 }
+
+
+/* animação*/
+.animação {
+  -webkit-animation-name:animação;
+  animation-name: animação;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes animação {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes animação {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+
+
+
 @media (min-width:280px) and (max-width:500px){
 
 .habilidades > .lista{

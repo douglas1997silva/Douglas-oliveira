@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit  } from '@angular/core';
+
 
 
 
@@ -9,7 +10,7 @@ import { Component, Input, OnInit } from '@angular/core';
   template:`
   <h2>Projetos: </h2>
   <div class="card-group">
-    <article class="card" *ngFor="let projeto of projetos">
+    <article class="card bounceIn  " *ngFor="let projeto of projetos">
       <h3>{{ projeto.titles }}</h3>
       <img [src]="projeto.img" [alt]="projeto.titles" class="card-imgem">
       <div class="habilidade-projetos">
@@ -120,11 +121,7 @@ export class ProjetosComponent implements OnInit {
     // Outros projetos
   ];
 
-
-
-  constructor(
-
-  ) {}
+  constructor (){}
 
   ngOnInit(): void {
 
