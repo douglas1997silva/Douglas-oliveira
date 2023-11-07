@@ -1,0 +1,59 @@
+/*div geral*/
+.rodape-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+
+}
+.list-icons , .lista-paginas{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.list-icons > li, .lista-paginas > li {
+  margin-right: 15px;
+}
+/*div dos icons*/
+
+.list-icons > li .link_rodape > .fi{
+  stroke: var(--modulo);
+  background-color: var(--span);
+  border-radius: 06px;
+  padding: 4px 5px 3px 7px;
+  text-align: center;
+  width: 30px;
+
+}
+
+
+.list-icons > li .link_rodape > .fi:hover{
+  stroke: var(--span);
+  background-color: var(--modulo);
+  transition: 250ms;
+}
+
+
+/*div pagins*/
+.lista-paginas{
+  font-size: 13px;
+  margin: 10px 0 10px 0 ;
+}
+.lista-paginas > li > .link-paginas{
+  color: var(--card2);
+}
+.lista-paginas > li > .link-paginas:hover{
+  color: var(--modulo);
+  transition: 250ms;
+}
+
+/* div criador*/
+
+.rodape-criador > p {
+  font-size: 10px;
+  color: var(--span);
+}

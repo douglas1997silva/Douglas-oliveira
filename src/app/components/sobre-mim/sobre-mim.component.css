@@ -1,6 +1,6 @@
 .sobre-min_secao{
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   background-color: var(--azul-pro);
   text-align: center;
 
@@ -198,6 +198,13 @@ li > .btn-hab{
       flex-direction: column-reverse;
       justify-content: space-around;
       align-items: center;
+
+    }
+    .sobre-min_secao{
+      width: 100%;
+      height: 210vh;
+
+
 
     }
     .sobre-mim{

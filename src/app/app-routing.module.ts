@@ -9,7 +9,7 @@ import { SobreMimComponent } from './components/sobre-mim/sobre-mim.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
 
 const routes: Routes = [{
-  path: '', component:HomeComponent
+  path: '', component:HomeComponent,
 },
 {
   path: 'sobre', component:SobreComponent,pathMatch:'full'

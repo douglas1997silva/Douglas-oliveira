@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rodape.component.css']
 })
 export class RodapeComponent implements OnInit {
-
+  github:string = "fi fi-brands-linkedin"
   constructor() { }
 
   ngOnInit(): void {

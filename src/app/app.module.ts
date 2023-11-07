@@ -12,7 +12,7 @@ import { SobreComponent } from './page/sobre/sobre.component';
 import { SobreMimAbaComponent } from './page/sobre-mim-aba/sobre-mim-aba.component';
 import { ResumoSobreComponent } from './components/resumo-sobre/resumo-sobre.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
-import { RodapeComponent } from './components/rodape/rodape.component'
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 
 
@@ -27,11 +27,13 @@ import { RodapeComponent } from './components/rodape/rodape.component'
     SobreMimAbaComponent,
     ResumoSobreComponent,
     ProjetosComponent,
-    RodapeComponent
+    RodapeComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
 
   ],
   providers: [],
