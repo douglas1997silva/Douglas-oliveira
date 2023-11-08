@@ -66,7 +66,7 @@ export class ProjetosComponent implements OnInit {
       titles: ' Blog "ONE Pience"',
       img: '../../../assets/portiforio.png',
       linkDeploy: '',
-      linkGithub: 'https://github.com/douglas1997silva/Portifolio-Angular',
+      linkGithub: '',
       tecnologias: [
         { nome: 'HTML', imagem: '../../../assets/html-5.png' },
         { nome: 'CSS', imagem: '../../../assets/css-3.png' },
