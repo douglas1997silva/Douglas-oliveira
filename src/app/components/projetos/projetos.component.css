@@ -1,3 +1,6 @@
+
+
+/* div principal*/
 .card-group{
   max-width: 100%;
   display: flex;
@@ -11,6 +14,7 @@
 
 
 }
+/* div de cada projetos*/
 h2{
   margin-top: 2rem;
   font-size: 30px;
@@ -75,6 +79,8 @@ h2{
   margin-right: 15px;
   text-align: center;
 }
+
+/* as habilidade*/
 .lista-hab{
   display: flex;
   flex-direction: row;
@@ -88,81 +94,80 @@ h2{
   width: 16px;
 }
 
+/*botao de mais projetos*/
+.container-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-mais{
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  animation: pulse 2s infinite;
+
+  &:hover {
+    background: linear-gradient(to bottom, #2980b9, #3498db);
+    transform: scale(1.1);
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
 /*animação*/
-.bounceIn {
-  -webkit-animation-name: bounceIn;
-  animation-name: bounceIn;
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
+.animacao {
+  -webkit-animation-name: animacao ;
+  animation-name: animacao ;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   }
-  @-webkit-keyframes bounceIn {
-  0%, 20%, 40%, 60%, 80%, 100% {
-  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
+  @-webkit-keyframes animacao  {
   0% {
-  opacity: 0;
-  -webkit-transform: scale3d(.3, .3, .3);
-  transform: scale3d(.3, .3, .3);
-  }
-  20% {
-  -webkit-transform: scale3d(1.1, 1.1, 1.1);
-  transform: scale3d(1.1, 1.1, 1.1);
-  }
-  40% {
-  -webkit-transform: scale3d(.9, .9, .9);
-  transform: scale3d(.9, .9, .9);
-  }
-  60% {
-  opacity: 1;
-  -webkit-transform: scale3d(1.03, 1.03, 1.03);
-  transform: scale3d(1.03, 1.03, 1.03);
-  }
-  80% {
-  -webkit-transform: scale3d(.97, .97, .97);
-  transform: scale3d(.97, .97, .97);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
   }
   100% {
-  opacity: 1;
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
   }
   }
-  @keyframes bounceIn {
-  0%, 20%, 40%, 60%, 80%, 100% {
-  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
+  @keyframes animacao  {
   0% {
-  opacity: 0;
-  -webkit-transform: scale3d(.3, .3, .3);
-  transform: scale3d(.3, .3, .3);
-  }
-  20% {
-  -webkit-transform: scale3d(1.1, 1.1, 1.1);
-  transform: scale3d(1.1, 1.1, 1.1);
-  }
-  40% {
-  -webkit-transform: scale3d(.9, .9, .9);
-  transform: scale3d(.9, .9, .9);
-  }
-  60% {
-  opacity: 1;
-  -webkit-transform: scale3d(1.03, 1.03, 1.03);
-  transform: scale3d(1.03, 1.03, 1.03);
-  }
-  80% {
-  -webkit-transform: scale3d(.97, .97, .97);
-  transform: scale3d(.97, .97, .97);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
   }
   100% {
-  opacity: 1;
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
   }
   }
 

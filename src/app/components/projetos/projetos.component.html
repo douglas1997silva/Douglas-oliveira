@@ -2,31 +2,4 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 
 
-<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
-<div class="card-group animacaoRight " >
 
-  <article class="card " *ngFor="let projeto of projetos" >
-    <h3>{{ projeto.titles }}</h3>
-    <img [src]="projeto.img" [alt]="projeto.titles" class="card-imgem">
-    <div class="habilidade-projetos">
-      <ul class="lista-card">
-        <li>
-          <i class="fi fi-rs-table-tree"></i>
-          <a [href]="projeto.linkDeploy" target="_blank">Deploy</a>
-        </li>
-        <li>
-          <i class="fi fi-brands-github"></i>
-          <a [href]="projeto.linkGithub" target="_blank">Repositorio</a>
-        </li>
-      </ul>
-      <ul class="lista-hab">
-        <li *ngFor="let tecnologia of projeto.tecnologias">
-          <a class="btn-hab bounceIn">
-            <img class="hab" [src]="tecnologia.imagem" [alt]="tecnologia.nome">
-          </a>
-        </li>
-      </ul>
-      <p class="descrição">{{ projeto.textprojetos }}</p>
-    </div>
-  </article>
-</div>

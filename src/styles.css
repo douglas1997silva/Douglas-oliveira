@@ -18,7 +18,35 @@ body{
    background-color: var(--azul-pro);
    color: var(--preto);
    width: 100%;
+   scrollbar-width: thin;
+  scrollbar-color: var(--span)#333;
 
+}
+/* Estilize a barra de rolagem vertical */
+body::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--span); /* Cor do polegar (parte arrastável) da barra de rolagem */
+  border-radius: 10px; /* Raio da borda do polegar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #333; /* Cor da faixa da barra de rolagem (fundo) */
+}
+
+/* Estilize a barra de rolagem horizontal (opcional) */
+body::-webkit-scrollbar:horizontal {
+  height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+body::-webkit-scrollbar-thumb:horizontal {
+  background-color: var(--span);
+}
+
+body::-webkit-scrollbar-track:horizontal {
+  background-color: #333;
 }
 
 :root .dark-theme {

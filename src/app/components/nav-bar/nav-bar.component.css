@@ -69,35 +69,50 @@
 }
 /*dark mode */
 
-.gif-dark-sol {
+.gif-dark-sol,
+.gif-dark-lua {
   width: 25px;
   z-index: 999;
   cursor: pointer;
-
-
-
 }
-.gif-dark-lua{
-  width: 25px;
-  z-index: 999;
+
+.menu > li > .button-nigth {
+  border-radius: 30px;
+
+  background-color: var(--span);
+
+  width: 48px;
   cursor: pointer;
-
+  margin-right: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
-.menu > li >.button-nigth{
-   border-radius: 30px;
-   padding: 1px;
-   background-color: #687EFF;
-   border: #1f00a8  solid 1px;
-
-   width: 78px;
-   cursor: pointer;
-   margin-right: 21px;
+.menu > li > .button-nigth:hover {
+  background-color: var(--span);
+  border-color: var(--branco);
 }
-.menu > li >.button-nigth:hover{
-  background-color: var(--azul-pro);
-  border: var(--paragrafo) solid 1px;
 
+.button-nigth.active {
+  background-color: var(--modulo);
+  border-color: var(--span);
+}
+
+.button-nigth .gif-dark-sol,
+.button-nigth .gif-dark-lua {
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.button-nigth.active .gif-dark-sol {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.button-nigth.active .gif-dark-lua {
+  opacity: 1;
+  transform: scale(1);
 }
 @media screen and (min-width:700px) {
   .nav-open {
