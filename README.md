@@ -1,6 +1,6 @@
 # Portfólio de Desenvolvedor Front-End - Douglas Oliveira
 
-![Portfólio de Douglas Oliveira](portfolio_screenshot.png)
+![Portfólio de Douglas Oliveira](portfolio.png)
 
 Bem-vindo ao meu portfólio de desenvolvedor front-end, construído com Angular. Aqui, você encontrará uma visão geral dos meus projetos e das habilidades que desenvolvi ao longo da minha jornada como desenvolvedor web.
 

@@ -64,15 +64,15 @@ export class ProjetosComponent implements OnInit {
     {
       id:'0',
       titles: ' Blog "ONE Pience"',
-      img: '../../../assets/portiforio.png',
-      linkDeploy: '',
-      linkGithub: '',
+      img: '../../../assets/blogone.png',
+      linkDeploy: 'https://angular-blog-eight-sable.vercel.app/',
+      linkGithub: 'https://github.com/douglas1997silva/angular-blog',
       tecnologias: [
         { nome: 'HTML', imagem: '../../../assets/html-5.png' },
         { nome: 'CSS', imagem: '../../../assets/css-3.png' },
         {nome: 'Angular', imagem: '../../../assets/angular.png'}
       ],
-      textprojetos: 'Criei um aplicativo de previsão do clima que fornece informações meteorológicas personalizadas com base na localização do usuário. Utilizando HTML, CSS e JavaScript, o aplicativo oferece dados atualizados sobre o clima, como temperatura, condições climáticas e previsões.',
+      textprojetos: 'Este projeto em andamento é um exemplo impressionante de minha habilidade em desenvolvimento web, onde combinei meu amor por "One Piece" com minha experiência em Angular para criar um blog dedicado a esta icônica série de anime e mangá. O blog apresenta uma interface de usuário atraente e interativa, projetada com um foco especial na tripulação dos Piratas do Chapéu de Palha.',
     },
     {
       id:'0',
