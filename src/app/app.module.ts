@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import{FormsModule} from '@angular/forms'
+
+
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +17,7 @@ import { SobreMimAbaComponent } from './page/sobre-mim-aba/sobre-mim-aba.compone
 import { ResumoSobreComponent } from './components/resumo-sobre/resumo-sobre.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
+import { ContatosComponent } from './components/contatos/contatos.component';
 
 
 
@@ -28,15 +33,21 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     ResumoSobreComponent,
     ProjetosComponent,
     RodapeComponent,
+    ContatosComponent,
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+
 
 
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
