@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{FormsModule} from '@angular/forms'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -18,6 +19,8 @@ import { ResumoSobreComponent } from './components/resumo-sobre/resumo-sobre.com
 import { ProjetosComponent } from './components/projetos/projetos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { ContatosComponent } from './components/contatos/contatos.component';
+import { InformacaoComponent } from './page/informacao/informacao.component';
+
 
 
 
@@ -34,6 +37,9 @@ import { ContatosComponent } from './components/contatos/contatos.component';
     ProjetosComponent,
     RodapeComponent,
     ContatosComponent,
+    InformacaoComponent,
+
+
 
 
   ],
@@ -41,7 +47,7 @@ import { ContatosComponent } from './components/contatos/contatos.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-
+    BrowserAnimationsModule,
 
 
   ],

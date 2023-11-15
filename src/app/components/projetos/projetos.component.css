@@ -177,7 +177,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 400px;
+    max-height: 450px;
     background-image: linear-gradient( 85deg, var(--card1), var(--card2));
     padding: 32px;
     transition: none;

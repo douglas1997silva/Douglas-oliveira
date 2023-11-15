@@ -1,0 +1,15 @@
+<!-- HTML !-->
+
+<div class="container-info">
+ <div *ngFor="let contato of contatos">
+  <a href="{{contato.link}}" target="_blank" class="link-contatos" >
+    <button class="button" role="button">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="text"><img src="{{contato.img}}" alt="{{contato.des}}" height="20px"></span>
+    </button>
+</a>
+</div>
+  </div>

@@ -31,10 +31,10 @@
     <li><a class="menu_itens" [routerLink]="['']" (click)="toggleMenu()" >Inicio </a></li>
     <li><a class="menu_itens" [routerLink]="['/sobre-mim-aba']" (click)="toggleMenu()" >Sobre Mim</a></li>
     <li><a class="menu_itens" [routerLink]="['/projetos']" (click)="toggleMenu()" >Projetos</a></li>
-    <li><a class="menu_itens" href="#" (click)="toggleMenu()">Contato</a></li>
+    <li><a class="menu_itens" [routerLink]="['informacao']"(click)="toggleMenu()" >Contato</a></li>
     <li>
 
-       <button id="d" class="button-nigth" type="button" (click)="changeThemeColor()">
+       <button id="d" class="button" type="button" (click)="changeThemeColor()">
       <img src="../../../assets/estrelas-da-lua.png" alt="sol" *ngIf="navbardark" class="gif-dark-sol ">
       <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">
 

@@ -1,49 +1,15 @@
-/* container - div principal */
+/* CSS */
 
-
-
-.container-button-contato{
-
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-direction: column;
-width: 100%;
-height: 400px;
-
-}
-/*  titulo contatos */
-
-.title-contatos >h6{
- font-size: 30px;
- color: var(--span);
-}
-
-/*  link contatos */
-
-.container_btn-contatos{
+.container-info{
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
-  column-gap: 1rem;
+  align-items: center;
   width: 100%;
- max-height: 300px ;
-}
-.link-contatos{
- cursor: pointer;
-
+   height: 450px;
+   flex-wrap: wrap;
 
 }
-
-
-
-
-
-
-/* botão do contatos */
-
-.button-60 {
+.button {
   transform: rotate(-25deg) skew(25deg);
   transform-style: preserve-3d;
   position: relative;
@@ -57,7 +23,7 @@ height: 400px;
   margin-bottom: 12px;
 }
 
-.button-60:before {
+.button:before {
   content: '';
   position: absolute;
   bottom: -10px;
@@ -68,7 +34,7 @@ height: 400px;
   transform: skewX(-41deg);
 }
 
-.button-60:after {
+.button:after {
   content: '';
   position: absolute;
   top: 5px;
@@ -79,7 +45,7 @@ height: 400px;
   transform: skewY(-49deg);
 }
 
-.button-60 span {
+.button span {
   position: absolute;
   top: 0;
   left: 0;
@@ -94,75 +60,64 @@ height: 400px;
   transition: 1.1s ease-out;
 }
 
-.button-60:hover span {
+.button:hover span {
   z-index: 1000;
   transition: .3s;
   color: #fff;
 }
 
-.button-60:hover span:nth-child(5) {
+.button:hover span:nth-child(5) {
   transform: translate(40px, -40px);
   opacity: 1;
 }
 
-.button-60:hover span:nth-child(4) {
+.button:hover span:nth-child(4) {
   transform: translate(30px, -30px);
   opacity: .8;
 }
 
-.button-60:hover span:nth-child(3) {
+.button:hover span:nth-child(3) {
   transform: translate(20px, -20px);
   opacity: .6;
 }
 
-.button-60:hover span:nth-child(2) {
+.button:hover span:nth-child(2) {
   transform: translate(10px, -10px);
   opacity: .4;
 }
 
-.button-60:hover span:nth-child(1) {
+.button:hover span:nth-child(1) {
   transform: translate(0px, 0px);
   opacity: .2;
 }
 
-.button-60:active span:nth-child(5) {
+.button:active span:nth-child(5) {
   transform: translate(20px, -20px);
   opacity: 1;
 }
 
-.button-60:active span:nth-child(4) {
+.button:active span:nth-child(4) {
   transform: translate(15px, -15px);
 }
 
-.button-60:active span:nth-child(3) {
+.button:active span:nth-child(3) {
   transform: translate(10px, -10px);
 }
 
-.button-60:active span:nth-child(2) {
+.button:active span:nth-child(2) {
   transform: translate(5px, -5px);
 }
 
-.button-60:active span:nth-child(1) {
+.button:active span:nth-child(1) {
   transform: translate(0px, 0px);
 }
 
-.button-60:nth-child(1):hover span {
+.button:nth-child(1):hover span {
   background: var(--span);
 }
-
-
 @media (min-width:300px) and (max-width:400px){
-  .container-button-contato{
 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
-    height: 400px;
-
-    }
-    .container_btn-contatos{
+    .container-info{
       display: grid;
       align-items: center;
       justify-content: space-around;
