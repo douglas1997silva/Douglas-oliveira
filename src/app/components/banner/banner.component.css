@@ -15,7 +15,7 @@
 .container-titles{
   text-align: center;
   width: 550px;
-  margin-left: 10px;
+
 }
 .container-titles >h1{
   color: var(--branco);
@@ -74,7 +74,7 @@ justify-content: center;
   background-image: linear-gradient( 85deg, var(--card1), var(--card2));
   border-radius: 15px ;
   margin-bottom: 4rem;
-  margin-left: 2rem;
+
 }
 .container-img:hover{
   background-image: linear-gradient( 03deg, var(--card2), var(--card1));
@@ -156,8 +156,8 @@ p{
     order: 1;
     text-align: center;
     margin-top: 2rem;
-    width: 260px;
-    height: 250px;
+    width: 225px;
+    height: 220px;
   }
   .container-titles{
     width: 325px;
@@ -166,7 +166,7 @@ p{
     order: 2;
   }
   .imga-douglas{
-    max-width: 250px;
+    max-width: 219px;
 
   }
 

@@ -55,5 +55,35 @@
 
 .rodape-criador > p {
   font-size: 10px;
-  color: var(--span);
+  color: var(--fonte-de-texto);
+}
+span{
+  color: var(--modulo);
+  text-transform: uppercase;
+}
+.version{
+  margin-top: 1rem;
+}
+@media (min-width:300px) and (max-width:400px) {
+  .lista-paginas{
+    font-size: 10px;
+    margin: 10px 0 10px 0 ;
+  }
+  .rodape-criador > p {
+    font-size: 10px;
+    color: var(--fonte-de-texto);
+    text-align: center;
+  }
+}
+
+@media (min-width:410px) and (max-width:750px) {
+  .lista-paginas{
+    font-size: 10px;
+    margin: 10px 0 10px 0 ;
+  }
+  .rodape-criador > p {
+    font-size: 10px;
+    color: var(--fonte-de-texto);
+    text-align: center;
+  }
 }

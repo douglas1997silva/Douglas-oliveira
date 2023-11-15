@@ -20,6 +20,7 @@ body{
    width: 100%;
    scrollbar-width: thin;
   scrollbar-color: var(--span)#333;
+  height: 100vh;
 
 }
 /* Estilize a barra de rolagem vertical */
