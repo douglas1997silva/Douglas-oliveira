@@ -1,3 +1,24 @@
 .principal{
   width: 100%;
 }
+.menu-lateral{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+   left: 0;
+   top: 30%;
+   z-index: 10;
+}
+
+@media (min-width:200px) and (max-width:460px) {
+  .menu-lateral{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+     left: 0;
+     top: 15%;
+     z-index: 10;
+  }
+}

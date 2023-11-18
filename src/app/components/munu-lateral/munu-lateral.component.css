@@ -1,0 +1,111 @@
+.container-menu_laterl{
+  width: 50px;
+  height: 200px;
+
+  margin-left: 3px;
+}
+ .menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: var(--m-fundo);
+  padding: 20px 10px  ;
+  border-radius: 25px;
+ }
+ .menu >.lista{
+  margin-bottom: 5px;
+ }
+ .lista:nth-child(n){
+  border-radius: 20px;
+  padding: 4px 3px 1px 3px ;
+  box-shadow: var(--m-itens) 0px -50px 36px -28px inset;
+ }
+
+ .lista> .link>img:nth-child(5){
+  width: 15px;
+ }
+
+/*dark mode */
+
+.gif-dark-sol,
+.gif-dark-lua {
+  width: 17px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.menu > li > .button-nigth {
+  border-radius: 30px;
+
+  background-color: var(--span);
+
+  width: 48px;
+  cursor: pointer;
+  margin-right: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button {
+  --glow-color: var(--span);
+  --glow-spread-color: var(--span);
+  --enhanced-glow-color: var(--branco);
+  --btn-color: var(--azul-pro);
+  border: .25em solid var(--glow-color);
+  padding: 4px 3px 1px 3px;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+
+  cursor: pointer;
+  }
+
+
+.button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.button:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+@media (min-width:200px) and (max-width:460px) {
+  .container-menu_laterl{
+    width: 40px;
+    height: 200px;
+
+    margin-left: 3px;
+  }
+}

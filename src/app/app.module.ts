@@ -20,6 +20,7 @@ import { ProjetosComponent } from './components/projetos/projetos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { ContatosComponent } from './components/contatos/contatos.component';
 import { InformacaoComponent } from './page/informacao/informacao.component';
+import { MunuLateralComponent } from './components/munu-lateral/munu-lateral.component';
 
 
 
@@ -38,6 +39,7 @@ import { InformacaoComponent } from './page/informacao/informacao.component';
     RodapeComponent,
     ContatosComponent,
     InformacaoComponent,
+    MunuLateralComponent,
 
 
 

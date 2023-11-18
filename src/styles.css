@@ -13,6 +13,8 @@
   --branco: #FFFFFF;
    --span: #51319b;
    --modulo:#cebcbc;
+   --m-fundo:#363062;
+   --m-itens:#818FB4 ;
 }
 body{
    background-color: var(--azul-pro);
@@ -62,7 +64,8 @@ body::-webkit-scrollbar-track:horizontal {
   --branco: #000000;
    --span: #164863;
    --modulo:#86A789;
-
+   --m-fundo:#818FB4;
+   --m-itens:#DCBFFF ;
 }
 *{
   padding: 0;

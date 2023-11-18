@@ -1,0 +1,32 @@
+<div  class="container-menu_laterl">
+  <ul class="menu">
+    <li class="lista">
+      <a [routerLink]="['']" (click)="scrollToTop()" class="link">
+        <img src="{{home}}" alt="home">
+      </a>
+    </li>
+    <li class="lista">
+      <a [routerLink]="['/sobre-mim-aba']" (click)="scrollToTop()"class="link">
+        <img src="{{sobre}}" alt="sobre">
+      </a>
+    </li>
+    <li class="lista">
+      <a [routerLink]="['/projetos']"  (click)="scrollToTop()"class="link">
+        <img src="{{projetos}}" alt="projetos">
+      </a>
+    </li>
+    <li class="lista">
+      <a [routerLink]="['informacao']"(click)="scrollToTop()"class="link">
+        <img src="{{contatos}}" alt="contatos">
+      </a>
+    </li>
+    <li class="lista">
+      <button id="d" class="button" type="button" (click)="changeThemeColor()">
+        <img src="../../../assets/estrelas-da-lua.png" alt="sol" *ngIf="navbardark" class="gif-dark-sol ">
+        <img src="../../../assets/eclipse-alt.png" alt="lua" *ngIf="!navbardark" class="gif-dark-lua ">
+
+      </button>
+    </li>
+
+  </ul>
+</div>

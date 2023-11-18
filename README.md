@@ -1,6 +1,6 @@
 # Portfólio de Desenvolvedor Front-End - Douglas Oliveira
 
-![Portfólio de Douglas Oliveira](portfolio.png)
+![Portfólio de Douglas Oliveira](./src/assets/portiforio.png)
 
 Bem-vindo ao meu portfólio de desenvolvedor front-end, construído com Angular. Aqui, você encontrará uma visão geral dos meus projetos e das habilidades que desenvolvi ao longo da minha jornada como desenvolvedor web.
 
@@ -12,29 +12,13 @@ Bem-vindo ao meu portfólio de desenvolvedor front-end, construído com Angular.
 
 - 🚀 **Projetos Destacados:** Você encontrará uma variedade de projetos que demonstrem minhas habilidades como desenvolvedor front-end. Desde sites estáticos até aplicações web interativas, cada projeto exibe meu comprometimento com a qualidade e a estética.
 
-## Projetos Destacados
 
-1. **Projeto A:** [Link para o Projeto A](projeto_a/)
-
-   - Descrição: Breve descrição do Projeto A e suas principais características.
-   - Tecnologias: HTML, CSS, Angular, etc.
-
-   ![Projeto A Screenshot](projeto_a_screenshot.png)
-
-2. **Projeto B:** [Link para o Projeto B](projeto_b/)
-
-   - Descrição: Breve descrição do Projeto B e suas principais características.
-   - Tecnologias: HTML, CSS, Angular, etc.
-
-   ![Projeto B Screenshot](projeto_b_screenshot.png)
-
-...
 
 ## Como Entrar em Contato
 
 - 📧 **Email:** Se você gostaria de entrar em contato comigo, por favor, envie um e-mail para [douglas.olliveira1997@gmail.com](mailto:douglas.olliveira1997@gmail.com).
 
-- 🔗 **LinkedIn:** Você pode conferir meu perfil no LinkedIn [aqui]((https://www.linkedin.com/in/douglas-oliveira-625064271/)).
+- 🔗 **LinkedIn:** Você pode conferir meu perfil no LinkedIn [LINKEDIN]((https://www.linkedin.com/in/douglas-oliveira-625064271/)).
 
 ## Como Contribuir
 
