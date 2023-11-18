@@ -7,7 +7,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   styleUrls: ['./resumo-sobre.component.css'],
   animations: [
     trigger('fadeIn', [
-      state('void', style({ opacity: 0 })),
+      state('void', style({ opacity: 0.5 })),
       transition(':enter', [
         animate('350ms ease-in', style({ opacity: 1 })),
       ]),

@@ -18,9 +18,9 @@
   margin-bottom: 5px;
  }
  .lista:nth-child(n){
-  border-radius: 20px;
-  padding: 4px 3px 1px 3px ;
-  box-shadow: var(--m-itens) 0px -50px 36px -28px inset;
+  border-radius: 9px;
+  padding: 4px;
+  box-shadow: var(--m-itens) 0px -50px 24px -28px inset;
  }
 
  .lista> .link>img:nth-child(5){
@@ -56,7 +56,7 @@
   --enhanced-glow-color: var(--branco);
   --btn-color: var(--azul-pro);
   border: .25em solid var(--glow-color);
-  padding: 4px 3px 1px 3px;
+  padding: 3px;
   color: var(--glow-color);
   font-size: 15px;
   font-weight: bold;
