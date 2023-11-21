@@ -14,6 +14,7 @@ export class SobreMimComponent implements OnInit {
  sass:string = '../../../assets/sass.png';
  angular:string ='../../../assets/angular.png';
  github:string = '../../../assets/placa-do-github.png';
+
   constructor() { }
 
   ngOnInit(): void {
