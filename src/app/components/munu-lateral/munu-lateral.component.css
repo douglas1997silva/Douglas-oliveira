@@ -17,11 +17,7 @@
  .menu >.lista{
   margin-bottom: 5px;
  }
- .lista:nth-child(n){
-  border-radius: 9px;
-  padding: 4px;
-  box-shadow: var(--m-itens) 0px -50px 24px -28px inset;
- }
+
 
  .lista> .link>img:nth-child(5){
   width: 15px;
