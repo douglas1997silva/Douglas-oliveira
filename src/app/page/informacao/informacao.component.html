@@ -1,8 +1,8 @@
 <!-- HTML !-->
 <h1 class="titles-inf">Contatos </h1>
 <div class="container-info">
-
- <div *ngFor="let contato of contatos">
+<div class="btn-c">
+ <div *ngFor="let contato of contatos" >
   <a href="{{contato.link}}" target="_blank" class="link-contatos" >
     <button class="button" role="button">
       <span></span>
@@ -12,5 +12,18 @@
       <span class="text"><img src="{{contato.img}}" alt="{{contato.des}}" height="20px"></span>
     </button>
 </a>
+</div>
+</div>
+<div class="contatos-inf">
+
+  <p>Fico à disposição para discutir mais sobre como posso agregar valor à sua equipe.</p>
+
+  <p>Você pode entrar em contato comigo através do e-mail:<span>douglas.olliveira1997@gmail.com</span>  ou pelo telefone <a href="https://api.whatsapp.com/send?phone=5511979576926">(11) 98600-8931</a>.</p>
+
+
+  <p>Agradeço a atenção e aguardo ansiosamente a possibilidade de uma futura colaboração.</p>
+
+  <p>Atenciosamente,</p>
+  <p>Douglas Oliveira</p>
 </div>
   </div>
