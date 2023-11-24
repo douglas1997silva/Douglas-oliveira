@@ -18,7 +18,7 @@ Bem-vindo ao meu portfólio de desenvolvedor front-end, construído com Angular.
 
 - 📧 **Email:** Se você gostaria de entrar em contato comigo, por favor, envie um e-mail para [douglas.olliveira1997@gmail.com](mailto:douglas.olliveira1997@gmail.com).
 
-- 🔗 **LinkedIn:** Você pode conferir meu perfil no LinkedIn [LINKEDIN]((https://www.linkedin.com/in/douglas-oliveira-625064271/)).
+- 🔗 **LinkedIn:** Você pode conferir meu perfil no LinkedIn [LINKEDIN](https://www.linkedin.com/in/douglas-oliveira-625064271/).
 
 ## Como Contribuir
 
