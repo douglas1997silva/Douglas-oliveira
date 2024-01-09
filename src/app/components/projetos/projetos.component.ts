@@ -185,9 +185,9 @@ export class ProjetosComponent implements OnInit {
   }
 
   private carregarProjetos() {
-    const p = (this.paginaAtual - 1) * this.projetosPorPagina;
-    const r = p + this.projetosPorPagina;
-    this.projetosExibidos = this.projetos.slice(0, r);
+    const projeto = (this.paginaAtual - 1) * this.projetosPorPagina;
+    const paginas = projeto + this.projetosPorPagina;
+    this.projetosExibidos = this.projetos.slice(0, paginas);
   }
   constructor (){}
 
